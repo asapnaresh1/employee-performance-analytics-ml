@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+!.env.example
+
+# Data (generated)
+data/raw/*.csv
+data/processed/*.csv
+data/raw/*.parquet
+data/processed/*.parquet
+
+# Models (trained)
+models/*.joblib
+models/*.pkl
+models/*.json
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Docker
+docker-compose.override.yml
+
+# Misc
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
